@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Bootstrap</title>
+</head>
+<style>
+
+body {
+    background-image: url("images/bg.jpg");
+}
+
+.carousel-inner > .item > img,
+	.carousel-inner > .item > a > img {
+	width: 70%;
+	margin: auto;
+	}
+  .carousel-inner > .item > img,
+	.carousel-inner > .item > a > img {
+	width: 70%;
+	margin: center;
+	}
+  
+  .jumbotron {
+	color: black;
+	font-family: Arial, Sans-serif;
+    position: relative;
+    background: url("images/bg1.jpg") center;
+    width: 100%;
+    height: 100%;
+    background-size:cover;
+    overflow:hidden;	
+}
+
+ .table-bordered { 
+ 		border: 2px solid black;
+		border-color:#000;
+		border-style:double;
+		font-size:20px;	
+		background: url("images/Pap_02.jpg") center;
+ }
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
+
+</style>
+<body background= "images/bg.jpg">
+  <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse">
+          <span class="sr-only">Toggle navigatsdasdasdasion</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#featured">s4590137 <span class="subhead">Dulani Athukorala</span></a>
+      </div><!-- navbar-header -->
+      <div class="collapse navbar-collapse" id="collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#Home">Home</a></li>
+          <li><a href="#jumbo">Jumbotron</a></li>
+          <li><a href="#Table">Table</a></li>
+		  <li><a href="#Collapsible">Collapsible</a></li>
+          <li><a href="#Form">Form</a></li>
+          <li><a href="#Carousel">Carousel</a></li>
+		  <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#Addex">Additional Exercise <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="#Tooltip">Tooltip</a></li>
+          <li><a href="#Modal">Modal</a></li>
+          <li><a href="#Popover">Popover</a></li>
+		  <li><a href="#shapes">Shapes</a></li>
+        </ul>
+        </ul>
+      </div><!-- collapse navbar-collapse -->
+    </div><!-- container -->
+  </nav>
+<a id = "Home"></a>
+<div class="content container">
+  <div class="row">
+    <section class="col-sm-12">
+      <h2>Bridle Services</h2>      
+    </section>
+  </div>
+
+  
+  
+  
+ 
+ <div class="row">
+   <div class="col-xs-6 col-sm-4">
+     <img class="img-responsive" src="images/bride.jpg" alt="bride photo">
+	 <h3>OUR VISION</h3>
+	 <p>Our first step is defining the wedding vision,how elegant you are on your dream day.Elegant Bridle provide a
+	 vast range of wedding ideas to help your wedding.</p>
+   </div>	 
+   
+   <div class="col-xs-6 col-sm-4">
+     <img class="img-responsive" src="images/gown.jpg" alt="gown photo">
+	 <h3>WEDDING DRESSES</h3>
+	 <p>Our friendly, expert dress designers help you to bring in all your ideas and we help you to fine-tune the design if need be.</p> <br>
+   </div>	 
+ 
+   <div class="col-xs-6 col-sm-4">
+     <img class="img-responsive" src="images/makeup.jpg" alt="makeup photo">
+	 <h3>MAKEUP</h3>
+	 <p>Our experts take the time to understand brides need and create a look that will be time less and beautiful whilst making brides feel
+	    comfortable and confident.</p><br>
+   </div>
+
+   <div class="col-xs-6 col-sm-4">
+     <img class="img-responsive" src="images/hair.jpg" alt="hair photo">
+	 <h3>HAIR STYLES</h3>
+	 <p>Let our professional and well trained team to provide a memorable experience and we go above and beyond to give you the hair style you
+	 deserve.</p><br>
+   </div>	  
+
+   <div class="col-xs-6 col-sm-4">
+     <img class="img-responsive" src="images/nail.jpg" alt="nail photo">
+	 <h3>NAIL ARTS</h3>
+	 <p>We focus to customize each manicure and pedicure to the bride unique needs by using a combination of nail art and nail extensions.</p><br>
+   </div>	  
+
+   <div class="col-xs-6 col-sm-4">
+     <img class="img-responsive" src="images/flower.jpg" alt="flower photo">
+	 <h3>FLOWERS</h3>
+	 <p>Bridal bouquet is perfectly compliment a bride's dress for a once-in-a-lifetime event,so we can design it in a way that will not
+	 hide the unbalance the line.</p><br>
+   </div> 
+</div>
+
+<!-- Jumbotron exercise start-->
+
+    <br><br>
+    <a id = "jumbo"><br><br></a>
+    <br>
+  
+  
+  
+  <h1> Dulanis Jumbotron exercise</h1>
+
+  <div class="jumbotron">
+    <h1>Elegant Brides Boutique</h1> 
+    <p>We love to see photos of our Elegant brides on their special day!.We invite you to share your special day with us.
+	   "Thank you Elegant brides boutique for adding to this magical day!"-Dulani<br>
+	   Elegant Bridle Boutique has been serving the community for over 30 years,establishing itself as one of the most "must see,
+	   must visit" Bridle Boutiques in Melbourne.You will always be guaranteed the very best in quality gowns,accessories and service.</p> 
+  </div>
+  <p><strong>You can visit us:</p> 
+  <p>Eligant Brides Face book page</strong></p> 
+
+<br>
+<a id = "Table"><br><br></a>
+<br>
+<div>
+  <h2>Table exercise</h2>
+  <p>Make your booking with our friendly staff:</p>            
+  <table class="table table-hover">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Contact No:</th>
+        <th>Email</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Dulani</td>
+        <td>0410394301</td>
+        <td>dulani@gmail.com</td>
+      </tr>
+      <tr>
+        <td>Saffran</td>
+        <td>0415740000</td>
+        <td>saff@yahoo.com</td>
+      </tr>
+      <tr>
+        <td>Amanda</td>
+        <td>0430394201</td>
+        <td>amanda@bigpond.com</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+
+<!-- Simple Collapsible exercise start-->
+
+<a id = "Collapsible"><br><br></a>
+<br>
+
+
+
+<h2>Collapsible</h2>
+  <p>Click the button.</p>
+  <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo">Click her for more information</button>
+  <div id="demo" class="collapse"><br>
+    <ul>The quest for the perfect wedding dress is always chief concern of every bride. </ul>
+	<ul>At Elegant bridle,our large collection of couture wedding gowns and dresses are created by our in-house gown designer</ul>
+	<ul>that will definitely bring out the radiance and beauty in you.</ul>
+	<ul>We had successfully create beautiful moments for more than 10,000 pairs of newly web couples in Melbourne.</ul>
+  </div>
+
+  <hr>
+  
+  <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo1">Click here for bridal concepts</button>
+  <div id="demo1" class="collapse"><br>
+    <ul>You are welcome to visit us and we are happy to share your excitement during the whirlwind and anticipation of your </ul>
+	<ul>upcoming nuptials. </ul>
+	<ul>From in-house consultant, art director, make-up artist, gown designer, Elegant bridle believe in giving the best to </ul>
+	<ul>our customers at affordable rate yet presenting a vary classy and unique experience for wedding.</ul>
+  </div>
+  
+  
+  
+  <!-- Form exercise start-->
+  
+<br><br><br>
+<a id = "Form"><br><br><a/>
+<br>
+
+<div class="container">
+  <h2>Join with us</h2>
+  <form action="/action_page.php">
+    <div class="form-group">
+      <label for="email">Name:</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+    </div>
+    <div class="form-group">
+      <label for="pwd">Contact:</label>
+      <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
+    </div>
+	 <div class="form-group">
+      <label for="pwd">Email:</label>
+      <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
+    </div>
+    <button type="submit" class="btn btn-default">Submit</button>
+  </form>
+</div>
+
+
+
+<!-- Carousel exercise start-->
+   <br>
+   <a id = "Carousel"><br><br></a>
+
+<div class="container" >
+  <h2>Dulanis Carousel</h2>  
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+	  <li data-target="#myCarousel" data-slide-to="3"></li> 
+	  <li data-target="#myCarousel" data-slide-to="4"></li>
+	  
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="images/hair.jpg" alt="hair">
+      </div>
+
+      <div class="item">
+        <img src="images/flower.jpg" alt="flower">
+      </div>
+    
+      <div class="item">
+        <img src="images/bride.jpg" alt="bride">
+      </div>
+	  
+	  <div class="item">
+        <img src="images/gown7.jpg" alt="gown7">
+      </div>
+	  
+	    <div class="item">
+        <img src="images/hair2.jpg" alt="hair2">
+      </div>
+    </div>
+	
+	
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+
+<br><br><br><br>
+
+<br><br><br><br>
+
+
+<!-- Tooltip exercise start-->
+
+ <a id = "Tooltip"><br><br></a>
+ <br><br><br>
+ 
+<div class="container" >
+  <h3>Tooltip Example</h3>
+  <a href="#Tooltip" data-toggle="tooltip" title="Win $2500">Win Price!</a>
+</div>
+
+<br><br><br>
+<br><br>
+
+<!-- Modal exercise start-->
+<a id ="Modal"><br><br></a>
+<br><br><br>
+
+<div class="container">
+  <h2>Modal Example</h2>
+  <!-- Trigger the modal with a button -->
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Click Here</button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title"> $ How to Win Elegant Price $</h4>
+        </div>
+        <div class="modal-body">
+          <p>When you register with Elegant bride, do not forget to leave your 
+		  Birthday to enter to Win Elegant price.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+</div>
+
+<br><br><br>
+<br>
+
+<!-- Popover exercise start-->
+
+<a id = "Popover"><br><br></a>
+<br><br><br>
+
+<div class="container">
+  <h3>Popover Example</h3>
+  <a href="#Popover" data-toggle="popover" title="Customer Feedback " data-content="Your feedback is very important to us. please share your thoughts with us.">Toggle popover</a>
+</div>
+
+
+
+<br><br><br><br>
+<br><br>
+
+
+<!-- Shapes exercise start-->
+
+<a id = "shapes"><br><br></a>
+ <div class="container">
+      <h2>Image Rounded</h2>
+      <p>Elegant Designs:</p>            
+      <img src="images/gown7.jpg" class="img-rounded" alt="Cinque Terre" width="304" height="236"> 
+	  
+	  <h2>Image Circle</h2>
+      <p>Eligant Creations:</p>            
+      <img src= "images/gown8.jpg" class="img-circle" alt="Cinque Terre" width="304" height="236"> 
+	  
+	  <h2>Image Thumbnail</h2>
+      <p>Eligant Works:</p>            
+      <img src= "images/gown9.jpg" class="img-thumbnail" alt="Cinque Terre" width="304" height="236"> 
+	  
+	  
+	  
+    </div>
+
+
+
+  <!-- exercise end-->
+
+<br><br><br><br><br><br><br><br>
+
+<br><br>
+  
+  
+   
+
+</div><!-- content container -->
+
+
+
+
+
+
+<script src="js/jquery-2.1.4.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/script.js"></script>
+<script>
+$(document).ready(function(){
+    $('[data-toggle="popover"]').popover();   
+});
+</script>
+</body>
+</html>
